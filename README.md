@@ -6,7 +6,7 @@ This is a website for Rocket Girls fan to join the fan club where they can find 
 Design process
 This website basically target two type of group. The first one being the fans of Rocket Girls and the other being the public.
 
-For the fans, the website allow them to find out the realisty shows they particated before through inserting a link that will direct them to a differerent website. Furthermore, it also shows a list of award and nomination the team achived. Songs created by them individually or as team is also there with link provided to direct them to Youtube to listen to their songs.
+For the fans, the website allow them to find out the realisty shows they particated before through inserting a link that will direct them to a differerent website. Furthermore, it also shows a list of award and nomination the team achived. Songs created by them as team is also there with link provided to direct them to Youtube to listen to their songs.
 
 As for the public who are interested to find out more about Rocket Girls, there's a "ABOUT" page where the public can find out about how Rocket Girls was debutted and there members. A link will also be provided to direct them to watch the show, Produce 101(China) that show the whole process on how the team debuted. 
 
@@ -21,6 +21,8 @@ Technology used(currently)
     - To code out the website
 -css
     - To implement different style for a block of code
+-javascript
+    - To add some animation
 
 Credits
 

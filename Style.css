@@ -1,3 +1,5 @@
+/* Homepage */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,16 +9,15 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url("bg2.jpg");
+    background-image: url("images/bg2.jpg");
     background-position: center;
     background-size: cover;
-    position: relative;
+    position: fixed;
 }
-
 
 nav{
     display: flex;
-    padding-left: 60%;
+    padding-left: 2% 6%;
     justify-content: space-between;
     align-items: center;
 }
@@ -27,9 +28,9 @@ nav{
 }
 .nv-link ul li{
     list-style: none;
-    padding: 15px 10px;
+    padding: 8px 12px;
     display: inline-block;
-    position: relative;
+    position: sticky;
 }
 
 .nv-link ul li a{
@@ -92,12 +93,9 @@ nav{
     transition: 1s;
 }
 
-nav .glyphicon{
+nav.fa{
     display: none;
 }
-
-
-
 
 
 
@@ -123,7 +121,7 @@ nav .glyphicon{
         transition: 1s;
     }
 
-    nav .glyphicon{
+    nav.fa{
         display: block;
         right: 0px;
         color: white;
@@ -140,6 +138,8 @@ nav .glyphicon{
 
 }
 
+/* discography */
+
 .discography{
     width: 80%;
     margin: auto;
@@ -151,7 +151,12 @@ h1{
     font-weight: 600;
 }
 
-.sa{
+.yt{
+    width:500px;
+    height:345px;
+}
+
+.sa,.ep,.as,.ps{
     text-align: left;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -161,11 +166,337 @@ table, th, td {
     border:2px solid black;
 }
 
-.ep{
-    text-align: left;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+.icon{
+    color: white;
+    position:absolute;
+    bottom:0px;
+    text-decoration: none;
+
+
 }
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width: 700px){
+
+    .sub-header2{
+        text-align: left;
+    }
+
+    .discography{
+        width: 80%;
+        margin: auto;
+        text-align:center;
+        padding-top: 100px;
+    }
+    h1{
+        font-size: 31px;
+        font-weight: 600;
+    }
+    
+    .sa,.ep,.as,.ps{
+        text-align: left;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    table, th, td {
+        border:2px solid black;
+    }
+
+    .footer{
+        color: white;
+        text-decoration: none;
+        background-color: #ff99b9;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        position: relative;
+        width: 100%;
+        padding-left: 30%;
+        padding-right: 50%;
+    }
+
+    .yt{
+        width:250px;
+        height:180px;
+    }
+
+    .year{
+        position: relative;
+        /*  new lines  */
+        max-width: 500px;
+        margin: 100px auto;
+        text-align: center;
+      }
+    
+      .year:after{
+        content:" ";
+        height: 2px;
+        width: 130px;
+        background: black;
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+      }
+    
+}
+
+/*About*/
+@media(max-width: 700px){
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .flex-container1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flex-container1 > div {
+        padding: 20px;
+        width: 50px;
+      }
+    
+    .sfc{
+        display: flex;
+        flex-direction: column;
+      }
+    
+    .sfc>div{
+        padding: 20px;
+        width: 20px;
+        
+    }
+
+    .ss5{
+        width: 10px
+    }
+
+    .abt{
+        padding-top: 350px
+    }
+
+}
+
+.abt{
+    padding-top: 95px
+}
+    
+
+.body{
+    background-color: #ffe6ee;
+}
+
+.ss5{
+    width: 550px
+}
+
+.sub1-header{
+    height: 50vh;
+    width: 100%;
+    background-image: url("images/ss9.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+
+
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container > div {
+    padding: 40px;
+    width: 1000px;
+  }
+
+
+.flex-container1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container1 > div {
+    padding: 40px;
+    width: 100px;
+    flex: 40%;
+  }
+
+.sfc{
+    display: flex;
+  }
+
+.sfc>div{
+    padding: 40px;
+    
+}
+
+/*FILMOGRAPHY*/
+.sub3-header{
+    height: 50vh;
+    width: 100%;
+    background-image: url("images/f.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    display: flex;
+}
+
+.container > div {
+    padding: 40px;
+    width: 100px;
+    flex: 40%;
+}
+
+.video{
+
+    font-size: 20px;
+    text-align: center;
+}
+
+@media(max-width: 700px){
+    .container{
+        flex-direction: column;
+    }
+
+    .ft{
+        padding-top: 70px;
+        padding-left: 50px;
+    }
+    
+
+}
+
+/* join us */
+
+/*adding a line before and after the year */
+.year:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: black;
+  }
+
+  .year{
+    position: relative;
+    /*  new lines  */
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+  }
+
+  .year:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+  .sub4-header{
+    height: 70vh;
+    width: 100%;
+    background-image: url("images/ty.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.f1{
+    padding-left: 400px;
+}
+
+.f1 input, .f1 textarea{
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+
+}
+
+.bt{
+    display: inline-block;
+    text-decoration: none;
+    color:black ;
+    border: 2px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.bt:hover{
+    border: 1px solid ;
+    background: #ff99b9;
+    transition: 1s;
+}
+.ju{
+    padding-top: 145px;
+}
+
+@media(max-width: 700px){
+    .f1{
+        padding-left: 100px;
+    }
+    
+    .f1 input, .f1 textarea{
+        width: 50%;
+        padding: 5px;
+        margin-bottom: 7px;
+        outline: none;
+        border: 1px solid #ccc;
+    
+    }
+    .ju{
+        padding-top: 245px;
+    }
+
+    .footer{
+        color: white;
+        text-decoration: none;
+        background-color: #ff99b9;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        position: relative;
+        width: 100%;
+        padding-left: 30%;
+        padding-right: 50%;
+    }
+
+    .bt:hover{
+        border: 1px solid ;
+        background: #ff99b9;
+        transition: 1s;
+    }
+}
+
+
+
+
 
 
 

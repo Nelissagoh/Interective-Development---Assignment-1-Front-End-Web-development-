@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="javascript.js" type="text/js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Courgette&family=Sono:wght@500&family=Ubuntu&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/43ee07203e.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+<!-- navigation -->
+    <section class="sub4-header">
+        <nav>
+            <div class="nv-link" id="navL">
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+
+                <style>
+                    nav{
+                        display: flex;
+                        padding-left: 2% 6%;
+                        justify-content: space-between;
+                        align-items: center;
+                        background-color: #ff99b9;
+                    }
+
+                    .nv-link{
+                        flex: 1;
+                        text-align: right;
+                    }
+                    .nv-link ul li{
+                        list-style: none;
+                        padding: 8px 12px;
+                        display: inline-block;
+                        position: sticky;
+                    }
+
+                    .nv-link ul li a{
+                        color: white;
+                        font-size: 15px;
+                        text-decoration: none;
+                    }
+
+                    .nv-link ul li::after{
+                        content: '';
+                        width: 0%;
+                        height: 2px;
+                        background: white;
+                        display: block;
+                        margin: auto;
+                        transition: 0.5s;
+                    }
+
+                    .nv-link ul li:hover::after{
+                        width: 100%;
+                    }
+                </style>
+
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Discography.html">DISCOGRAPHY</a></li>
+                        <li><a href="Filmograpghy.html">FILMOGRAPHY</a></li>
+                        <li><a href="Join us.html">JOIN US</a></li>
+                    </ul>
+            </div>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+        <!-- header for the page -->
+        <h1 class="ju">JOIN US</h1>
+    </section>
+
+    <section style="background-color:#ffe6ee ;">
+        <br>
+        
+        
+<!-- first form -->
+        <h2 class="year">BE PART OF US</h2>
+        <div class="f1">
+            <form action="">
+                <p>NAME</p>
+                <input type="text" placeholder="Enter your name" required>
+                <p>EMAIL</p>
+                <input type="email"placeholder="Enter Email address" required>
+                <p>COUNTRY</p>
+                <input type="text" placeholder="Enter your country" required>
+                <button type="submit" class="bt">Submit</button>
+            </form>
+        </div>
+
+            <br>
+            <!-- second form -->
+        <h2 class="year">ENQUIRY</h2>
+        <div class="f1">
+            <form action="">
+                <p>NAME</p>
+                <input type="text" placeholder="Enter your name" required>
+                <p>EMAIL</p>
+                <input type="email"placeholder="Enter Email address" required>
+                <p>SUBJECT</p>
+                <input type="text" placeholder="Enter your subject" required>
+                <p>MESSAGE</p>
+                <textarea rows="8" placeholder="Any questions?" required></textarea>
+                <br>
+                <button type="submit" class="bt">Submit</button>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+<!-- footer -->
+    <section class="footer">
+        <style>
+            .footer{
+                color: white;
+                text-decoration: none;
+                background-color: #ff99b9;
+                padding-bottom: 50px;
+                padding-top: 50px;
+                position: relative;
+                width: 100%;
+                text-align: center;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        </style>
+            <p>FOLLOW ROCKET GIRLS @</p>
+            <br>
+            <a href="https://m.weibo.cn/u/6576856192?uid=6576856192&t=0&luicode=10000011&lfid=100103type%3D1%26q%3D%E7%81%AB%E7%AE%AD%E5%B0%91%E5%A5%B3">Weibo <i class="fa-brands fa-weibo fa-2xl"></i></a>
+            <a href="https://www.instagram.com/rocketgirls101.official/">Instagram <i class="fa-brands fa-instagram fa-2xl"></i></a>
+            <a href="https://www.youtube.com/hashtag/%E7%81%AB%E7%AE%AD%E5%B0%91%E5%A5%B3101">YouTube <i class="fa-brands fa-youtube fa-2xl"></i></a>
+    </section>
+        
+<script src="js.js"></script>  
+</body>
+</html>
+
