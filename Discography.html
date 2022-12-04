@@ -13,64 +13,15 @@
     <title>Document</title>
 </head>
 <body>
-<!-- navigation -->
+    <!-- navigation -->
     <section class="sub2-header">
-        <nav>
-            <div class="nv-link" id="navL">
-                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
-
-                <style>
-                    nav{
-                        display: flex;
-                        padding-left: 2% 6%;
-                        justify-content: space-between;
-                        align-items: center;
-                        background-color: #ff99b9;
-                    }
-
-                    .nv-link{
-                        flex: 1;
-                        text-align: right;
-                    }
-                    .nv-link ul li{
-                        list-style: none;
-                        padding: 8px 12px;
-                        display: inline-block;
-                        position: sticky;
-                    }
-
-                    .nv-link ul li a{
-                        color: white;
-                        font-size: 15px;
-                        text-decoration: none;
-                    }
-
-                    .nv-link ul li::after{
-                        content: '';
-                        width: 0%;
-                        height: 2px;
-                        background: white;
-                        display: block;
-                        margin: auto;
-                        transition: 0.5s;
-                    }
-
-                    .nv-link ul li:hover::after{
-                        width: 100%;
-                    }
-                </style>
-
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="About.html">ABOUT</a></li>
-                        <li><a href="Discography.html">DISCOGRAPHY</a></li>
-                        <li><a href="Filmograpghy.html">FILMOGRAPHY</a></li>
-                        <li><a href="Join us.html">JOIN US</a></li>
-                    </ul>
-            </div>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            
-        </nav>
+        <div class="navbar">
+            <a class="nav-link nav-link-fade-up" href="index.html">HOME</a>
+            <a class="nav-link nav-link-fade-up" href="About.html">ABOUT</a>
+            <a class="nav-link nav-link-fade-up" href="Discography.html">DISCOGRAPHY</a>
+            <a class="nav-link nav-link-fade-up" href="Filmograpghy.html">FILMOGRAPHY</a>
+            <a class="nav-link nav-link-fade-up" href="Join us.html">JOIN US</a>
+        </div>
 
         <!-- Slide Show -->
         <section>
@@ -81,39 +32,27 @@
             
         </section>
     </section>
+    <div style="display:flex;flex-direction:column;background-color:#ffe6ee">
+        <section class="discography">
+            <h1 class="year">DISCOGRAPHY</h1>
 
-    <section class="discography">
-
-        <style>
-            .discography{
-                background-color: #ffe6ee;
-                width: 100%;
-            }
-
-            a{
-                color: black;
-                text-decoration: none;
-            }
-        </style>
-        <h1 class="year">DISCOGRAPHY</h1>
-        <br>
-        
-        <div class="sa">
+            <div class="sa">
 
 
-        <!-- table for studio ablums -->
-            <strong>Studio albums</strong>
-            <br>
+                <!-- table for studio ablums -->
+                <strong>Studio albums</strong>
+                <br>
  
             
             <div style="text-align: center;">
-            <iframe class="yt" src="https://www.youtube.com/embed/KMHW9fF2KWY?autoplay=1&mute=1">
-            </iframe>
+                <iframe class="yt" src="https://www.youtube.com/embed/KMHW9fF2KWY?autoplay=1&mute=1">
+                </iframe>
             </div>
             <p style="text-align: center"><风 (Wind)></p>
-            <p style="text-align: center">Want to listen to more songs in the album? <a href="https://www.youtube.com/playlist?list=PLgYHoy9R0TGQP94k9tjEUiKDrJd4qZaqO">CLICK HERE! </a></p>
+            <p style="text-align: center">Want to listen to more songs in the album? <a style="color:black; text-decoration: none;" href="https://www.youtube.com/playlist?list=PLgYHoy9R0TGQP94k9tjEUiKDrJd4qZaqO">CLICK HERE! </a></p>
             <br>
-            <table style="width:80%">
+
+            <table>
                 <tr>
                     <th style="width:20%; text-align:center">Title</th>
                     <th style="width:20%; text-align:center">Details</th>
@@ -149,10 +88,10 @@
 
         <br>
         <!-- table for extended plays -->
+    </section>  
+    <hr style="width: 90%;margin:auto;">
+    <section class="discography">
         <div class="ep">
-            <hr>
-            <br>
-            <br>
             <strong>Extended plays</strong>
             <br>
             <div style="text-align: center">
@@ -179,19 +118,19 @@
                         <ol style="list-style-position: inside">
                             <li>
                                 撞 (Collide)
-                                <p><a href="https://www.youtube.com/watch?v=oPgk0tqp4VU">CLICK HERE TO LISTEN!</a></p>
+                                <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=oPgk0tqp4VU">CLICK HERE TO LISTEN!</a></p>
                             </li>
                             <li>
                                 Light
-                                <p ><a href="https://www.youtube.com/watch?v=XukO9QBq5LA">CLICK HERE TO LISTEN!</a></p>
+                                <p ><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=XukO9QBq5LA">CLICK HERE TO LISTEN!</a></p>
                             </li>
                             <li>
                                 月亮警察 (Sailor Moon)
-                                <p><a href="https://www.youtube.com/watch?v=0mjqVDmDqbM">CLICK HERE TO LISTEN!</a></p>
+                                <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=0mjqVDmDqbM">CLICK HERE TO LISTEN!</a></p>
                             </li>
                             <li>
                                 生而为赢 (Born To Win)
-                                <p><a href="https://www.youtube.com/watch?v=oNw0udN_Hqk">CLICK HERE TO LISTEN!</a></p>
+                                <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=oNw0udN_Hqk">CLICK HERE TO LISTEN!</a></p>
                             </li>
                         </ol>
                     </td>
@@ -208,32 +147,30 @@
                         <ol style="list-style-position: inside">
                             <li>
                                 11次心跳 (11 Times Heartbeat)
-                                <p><a href="https://www.youtube.com/watch?v=AY26g8oMP9Y">CLICK HERE TO LISTEN!</a></p>
+                                <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=AY26g8oMP9Y">CLICK HERE TO LISTEN!</a></p>
                             </li>
                             <li>
                                 嘘！我跟你讲 (Shh! You Say To Me)
-                                <p ><a href="https://www.youtube.com/watch?v=XkID2jseE-M">CLICK HERE TO LISTEN!</a></p>
+                                <p ><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=XkID2jseE-M">CLICK HERE TO LISTEN!</a></p>
                             </li>
                             <li>
                                 硬糖 (Our Shining Time
-                                <p><a href="https://www.youtube.com/watch?v=EbhbU6c9lkw">CLICK HERE TO LISTEN!</a></p>
+                                <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=EbhbU6c9lkw">CLICK HERE TO LISTEN!</a></p>
                             </li>
                             <li>
                                 5452830
-                                <p><a href="https://www.youtube.com/watch?v=VJ_XCoM0wNI">CLICK HERE TO LISTEN!</a></p>
+                                <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=VJ_XCoM0wNI">CLICK HERE TO LISTEN!</a></p>
                             </li>
                         </ol>
                     </td>
                 </tr>
             </table>
         </div>
-        <br>
-
+    </section>
+    <hr style="width:90%;margin:auto;">
+    <section class="discography">
         <!-- table for promotional singles -->
         <div class="ps">
-            <hr>
-            <br>
-            <br>
             <strong>Promotional Singles</strong>
             <br>
             <br>
@@ -246,7 +183,7 @@
                 <tr>
                     <td style="text-align:center">
                         101 Wishes (101个愿望)
-                        <p><a href="https://www.youtube.com/watch?v=TGMxYAC6Gu0">CLICK HERE TO LISTEN!</a></p>
+                        <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=TGMxYAC6Gu0">CLICK HERE TO LISTEN!</a></p>
                     </td>
                     <td style="text-align:center">
                         2018
@@ -256,7 +193,7 @@
                 <tr>
                     <td style="text-align:center">
                         Rocket Boom" (榮譽星球)
-                        <p><a href="https://www.youtube.com/watch?v=FPUBI_rj-1U">CLICK HERE TO LISTEN!</a></p>
+                        <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=FPUBI_rj-1U">CLICK HERE TO LISTEN!</a></p>
                     </td>
                     <td style="text-align:center">
                         2019
@@ -265,12 +202,12 @@
             </table>
         </div>
         <br>
-
-        <!-- soundtrack apperances -->
+    </section>
+    
+    <hr style="width:90%;margin:auto;">
+    <!-- soundtrack apperances -->
+    <section class="discography">
         <div class="as">
-            <hr>
-            <br>
-            <br>
             <strong>Soundtrack appearances</strong>
             <br>
             <br>
@@ -289,7 +226,7 @@
                         2018
                     </td>
                     <td>
-                        <p><a href="https://www.youtube.com/watch?v=CBNreMHhkfg">OST of Hello Mr Billionaire</a></p>
+                        <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=CBNreMHhkfg">OST of Hello Mr Billionaire</a></p>
                     </td>
                 </tr>
 
@@ -301,7 +238,7 @@
                         2018
                     </td>
                     <td>
-                        <p><a href="https://www.youtube.com/watch?v=KTVnUw-1EAU">Venom promo single</a></p>
+                        <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=KTVnUw-1EAU">Venom promo single</a></p>
                     </td>
                 </tr>
 
@@ -313,7 +250,7 @@
                         2019
                     </td>
                     <td>
-                        <p><a href="https://www.youtube.com/watch?v=9rafL8XtrNw">Rampage 20 Opening Theme Song</a></p>
+                        <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=9rafL8XtrNw">Rampage 20 Opening Theme Song</a></p>
                     </td>
                 </tr>
 
@@ -325,7 +262,7 @@
                         2019
                     </td>
                     <td>
-                        <p><a href="https://www.youtube.com/watch?v=uHU2IvKWrNg">OST of Boonie Bears: Blast into the Past</a></p>
+                        <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=uHU2IvKWrNg">OST of Boonie Bears: Blast into the Past</a></p>
                     </td>
                 </tr>
 
@@ -337,7 +274,7 @@
                         2019
                     </td>
                     <td>
-                        <p><a href="https://www.youtube.com/watch?v=7miEBZffZOQ">OST of Crazy Alien</a></p>
+                        <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=7miEBZffZOQ">OST of Crazy Alien</a></p>
                     </td>
                 </tr>
 
@@ -349,16 +286,17 @@
                         2020
                     </td>
                     <td>
-                        <p><a href="https://www.youtube.com/watch?v=WBP07g1-xk4">PlayerUnknown's Battlegrounds Promotional Single</a></p>
+                        <p><a style="color:black; text-decoration: none;" href="https://www.youtube.com/watch?v=WBP07g1-xk4">PlayerUnknown's Battlegrounds Promotional Single</a></p>
                     </td>
                 </tr>
+            </table>
         </div>
+    </section>
+    <hr style="width:90%;margin:auto;">
 
-        <div class="award">
+    <section class="discography">
+        <div class="as">
             <table>
-            <hr>
-            <br>
-            <br>
             <strong>Awards and nominations</strong>
             <br>
             <br>
@@ -440,25 +378,14 @@
 <!-- footer -->
     
     <section class="footer">
-        <style>
-            .footer{
-                color: white;
-                text-decoration: none;
-                background-color: #ff99b9;
-                padding-bottom: 50px;
-                padding-top: 50px;
-                position: relative;
-                width: 100%;
-                text-align: center;
-            }
-        </style>
-            <p>FOLLOW ROCKET GIRLS @</p>
+            <p style="color:white">FOLLOW ROCKET GIRLS @</p>
             <br>
             <a style="color:white" href="https://m.weibo.cn/u/6576856192?uid=6576856192&t=0&luicode=10000011&lfid=100103type%3D1%26q%3D%E7%81%AB%E7%AE%AD%E5%B0%91%E5%A5%B3">Weibo <i class="fa-brands fa-weibo fa-2xl"></i></a>
             <a style="color:white"href="https://www.instagram.com/rocketgirls101.official/">Instagram <i class="fa-brands fa-instagram fa-2xl"></i></a>
             <a style="color:white"href="https://www.youtube.com/hashtag/%E7%81%AB%E7%AE%AD%E5%B0%91%E5%A5%B3101">YouTube <i class="fa-brands fa-youtube fa-2xl"></i></a>
         
     </section>
+</div>
     
     
 
